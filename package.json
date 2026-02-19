@@ -1,0 +1,24 @@
+{
+  "name": "pears-node-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ng-the-engineer/pears-node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ng-the-engineer/pears-node-app/issues"
+  },
+  "homepage": "https://github.com/ng-the-engineer/pears-node-app#readme",
+  "description": "",
+  "dependencies": {
+    "hyperdht": "^6.29.0"
+  }
+}
