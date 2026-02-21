@@ -1,4 +1,4 @@
-const DHT = require("hyperdht");
+import DHT from "hyperdht";
 
 const node2 = new DHT();
 
@@ -8,7 +8,7 @@ console.log("keyPair2 pub: ", Buffer.from(keyPair2.publicKey).toString("hex"));
 console.log("keyPair2 pri: ", Buffer.from(keyPair2.secretKey).toString("hex"));
 
 const socket = node2.connect(
-  "f5d32199a5b63b2d52ee622e80b27893e87c21570518ad3486c5f8fd15488c1b",
+  "6d3d79a79614201ebe1539b222d52d8b58e7fabd76ce95b7c029c4f65fc88840",
 );
 
 socket.on("open", () => {
