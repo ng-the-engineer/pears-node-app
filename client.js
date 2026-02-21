@@ -1,4 +1,4 @@
-import DHT from "hyperdht";
+const DHT = require("hyperdht");
 
 const node2 = new DHT();
 
