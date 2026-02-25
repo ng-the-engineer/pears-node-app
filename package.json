@@ -17,6 +17,8 @@
   "homepage": "https://github.com/ng-the-engineer/pears-node-app#readme",
   "description": "",
   "dependencies": {
-    "hyperdht": "^6.29.0"
+    "crypto": "^1.0.1",
+    "hyperdht": "^6.29.0",
+    "hyperswarm": "^4.17.0"
   }
 }

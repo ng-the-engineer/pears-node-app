@@ -8,7 +8,7 @@ console.log("keyPair2 pub: ", Buffer.from(keyPair2.publicKey).toString("hex"));
 console.log("keyPair2 pri: ", Buffer.from(keyPair2.secretKey).toString("hex"));
 
 const socket = node2.connect(
-  "6d3d79a79614201ebe1539b222d52d8b58e7fabd76ce95b7c029c4f65fc88840",
+  "c37058a01fe56a2790afbd2e42be233732f8484320630d0702e7b8e3ee760c81",
 );
 
 socket.on("open", () => {
