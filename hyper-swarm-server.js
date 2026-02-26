@@ -6,7 +6,10 @@ const swarm1 = new Hyperswarm();
 const swarm2 = new Hyperswarm();
 
 // Shared topic
-const topic = crypto.createHash("sha256").update("my-static-topic").digest();
+const topic = crypto
+  .createHash("sha256")
+  .update("my-static-topic-anthony")
+  .digest();
 
 console.log("topic: ", topic.toString("hex"));
 
